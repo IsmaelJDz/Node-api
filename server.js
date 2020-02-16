@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 //app.use(router);
 
+//enviamos el server de express
 router(app);
 
 app.use('/app', express.static('public'));
